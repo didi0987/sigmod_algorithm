@@ -12,6 +12,8 @@ public class Schedule {
 
 
     }
+    public Schedule(){
 
+    }
 
 }
