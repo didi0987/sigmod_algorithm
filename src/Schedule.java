@@ -3,17 +3,33 @@
  */
 public class Schedule {
 
-    public double time;
-    public double price;
-
-    public Schedule(double time,double price){
-        this.price=price;
-        this.time=time;
-
-
+    private double time;
+    private double price;
+    public void setTime(double time) {
+        this.time = time;
     }
-    public Schedule(){
 
+    public void setPrice(double price) {
+        this.price = price;
     }
+
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getTime() {
+        return time;
+    }
+
+    //    public Schedule(double time,double price){
+//        this.price=price;
+//        this.time=time;
+//
+//
+//    }
+//    public Schedule(){
+//
+//    }
 
 }
