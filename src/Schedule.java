@@ -5,6 +5,7 @@ public class Schedule {
 
     private double time;
     private double price;
+    
     public void setTime(double time) {
         this.time = time;
     }
