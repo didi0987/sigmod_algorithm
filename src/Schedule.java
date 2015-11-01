@@ -5,7 +5,7 @@ public class Schedule {
 
     private double time;
     private double price;
-    
+
     public void setTime(double time) {
         this.time = time;
     }
@@ -21,6 +21,10 @@ public class Schedule {
 
     public double getTime() {
         return time;
+    }
+
+    public String toString() {
+        return "Time: " + getTime() + ", Money: " + getPrice();
     }
 
     //    public Schedule(double time,double price){
