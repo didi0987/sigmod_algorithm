@@ -15,4 +15,8 @@ public class myutil {
 
 
     }
+    private double AcceptProbablity(double temp){
+
+        return 0.0;
+    }
 }
