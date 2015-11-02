@@ -1,3 +1,5 @@
+package ScheduleEntities;
+
 /**
  * Created by chenxiao on 10/28/2015.
  */
@@ -27,13 +29,13 @@ public class Schedule {
         return "Time: " + getTime() + ", Money: " + getPrice();
     }
 
-    //    public Schedule(double time,double price){
+    //    public ScheduleEntities.Schedule(double time,double price){
 //        this.price=price;
 //        this.time=time;
 //
 //
 //    }
-//    public Schedule(){
+//    public ScheduleEntities.Schedule(){
 //
 //    }
 

@@ -1,4 +1,4 @@
-/**
+package ScheduleEntities; /**
  * Created by slc on 10/30/15.
  */
 import java.util.List;

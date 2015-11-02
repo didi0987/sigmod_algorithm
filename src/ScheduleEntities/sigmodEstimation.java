@@ -1,3 +1,5 @@
+package ScheduleEntities;
+
 import java.util.Random;
 
 /**
@@ -7,8 +9,8 @@ public class sigmodEstimation extends Estimation{
 
 
     public void EstimateSchedule(Schedule s) {
-        double time=Estimate_Schedule_Time(s);
-        double price=Estimate_Schedule_Money(s);
+        double time=this.Estimate_Schedule_Time(s);
+        double price=this.Estimate_Schedule_Money(s);
         s.setPrice(price);
         s.setTime(time);
 
@@ -42,4 +44,6 @@ public class sigmodEstimation extends Estimation{
 
         return money;
     }
+
+
 }
