@@ -6,8 +6,11 @@ import ScheduleEntities.Schedule;
 public class myutil {
 
 
-    public static void anealing(Schedule s){
+    public static Schedule anealing(Schedule s){
 
+        Schedule retS=new Schedule();
+
+        return retS;
 
 
     }
